@@ -1,0 +1,158 @@
+body {
+    font: 15px Arial, sans-serif;
+
+}
+header {
+    margin: 0 auto;
+    background-color: rgb(17, 177, 177);
+    border-style: solid;
+    border-color: rgb(96, 223, 245);
+    border-radius: 40px;
+    font: 15px Arial, sans-serif;
+
+}
+h1 {
+    margin-left: 40%;
+}
+#instructions {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 20px;
+}
+
+#rock-btn {
+    background-image: url("images/rock.jpg");
+    background-size: 200px 200px;
+    height: 200px;  
+    width: 200px;
+    float:left;
+    border-color: transparent;
+
+}
+
+#paper-btn {
+    background-image: url("images/paper.jpg");
+    background-size: 200px 200px;
+    height: 200px;  
+    width: 200px;
+    float:left;
+    margin-left: 50px;
+    border-color: transparent;
+
+}
+
+#scissors-btn {
+    background-image: url("images/scissors_circle.png");
+    background-size: 200px 200px;
+    height: 200px;  
+    width: 200px;
+    float:left;
+    margin-left: 50px;
+    border-color: transparent;
+}
+
+button {
+    border-radius: 50%;
+}
+
+button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px 1px;
+}
+
+.option {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 7%;
+}
+
+
+#results {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#round-results {
+    text-align: center;
+    
+
+}
+#you-div {
+    margin-left: -45%;
+    margin-top: 50%;
+
+}
+
+#computer-div {
+    margin-left: 45%;
+    margin-top: -22%;
+}
+
+#you-pick {
+    height: 100px;  
+    width: 100px; 
+    
+}
+
+#computer-pick {
+    height: 100px;  
+    width: 100px; 
+}
+
+#results-msg {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+#score-title {
+    position: absolute;
+    top: 78%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 24px;
+    font-weight: bold;
+
+}
+#scores {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+#final-results {
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 24px;
+    font-weight: bold;
+    white-space: pre;
+}
+
+#play-again {
+    display: none;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 20px;
+    padding: 15px 32px;
+    background-color:rgb(17, 177, 177);
+    border-color: black;
+}
